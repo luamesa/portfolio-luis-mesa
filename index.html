@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Portafolio profesional de Luis Angel Mesa, estudiante de Ingeniería Informática y desarrollador de software.">
+
+<title>Luis Angel Mesa | Portafolio</title>
+
+<link rel="stylesheet" href="styles.css">
+```
+
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a href="#inicio" class="logo">
+            Luis<span>.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#formacion">Formación</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-label">INGENIERÍA INFORMÁTICA</p>
+
+            <h1>
+                Hola, soy <span>Luis Angel Mesa</span>
+            </h1>
+
+            <h2>
+                Desarrollo de Software · Backend · Full Stack
+            </h2>
+
+            <p class="hero-description">
+                Estudiante de Ingeniería Informática enfocado en el desarrollo
+                de aplicaciones web, APIs y soluciones de software.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">
+                    Ver proyectos
+                </a>
+
+                <a href="https://github.com/luamesa"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn btn-secondary">
+                    GitHub
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-code">
+            <div class="code-window">
+
+                <div class="code-header">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <pre><code>
+```
+
+const developer = {
+nombre: "Luis Angel Mesa",
+carrera: "Ingeniería Informática",
+enfoque: [
+"Backend",
+"Full Stack",
+"APIs",
+"IA aplicada"
+],
+aprendizaje: [
+"Cloud",
+"Docker",
+"DevOps"
+]
+}; </code></pre>
+
+```
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sobre-mi" class="section">
+
+        <div class="section-title">
+            <p>PERFIL</p>
+            <h2>Sobre mí</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    Soy estudiante de Ingeniería Informática con interés en el
+                    desarrollo de software, especialmente en Backend, desarrollo
+                    de APIs y aplicaciones web.
+                </p>
+
+                <p>
+                    Durante mi formación académica he desarrollado proyectos
+                    utilizando tecnologías como JavaScript, TypeScript, Angular,
+                    Node.js, Express, Python, MongoDB, SQL, Docker y Git.
+                </p>
+
+                <p>
+                    También he explorado aplicaciones de Inteligencia Artificial
+                    aplicada al desarrollo de soluciones tecnológicas.
+                </p>
+
+                <p>
+                    Me interesa continuar fortaleciendo mis conocimientos y
+                    participar en proyectos donde pueda transformar requerimientos
+                    en soluciones funcionales y escalables.
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <div class="info-item">
+                    <strong>Área</strong>
+                    <span>Desarrollo de Software</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>Enfoque</strong>
+                    <span>Backend & Full Stack</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>Formación</strong>
+                    <span>Ingeniería Informática</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>Disponibilidad</strong>
+                    <span>Prácticas / Junior</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="habilidades" class="section section-dark">
+
+        <div class="section-title">
+            <p>TECNOLOGÍAS</p>
+            <h2>Habilidades</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML5 · CSS3 · JavaScript · TypeScript · Angular</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Node.js · Express · Python · APIs REST</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Bases de datos</h3>
+                <p>MongoDB · MySQL · PostgreSQL · Mongoose</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Herramientas</h3>
+                <p>Git · GitHub · Docker · Postman · VS Code</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Autenticación</h3>
+                <p>JWT · bcryptjs · Guards · Interceptors</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Otros</h3>
+                <p>WordPress · Inteligencia Artificial · Responsive Design</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="proyectos" class="section">
+
+        <div class="section-title">
+            <p>TRABAJO</p>
+            <h2>Proyectos destacados</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>ReviewHub</h3>
+
+                <p>
+                    Plataforma Full Stack para la gestión de reseñas de usuarios,
+                    con autenticación, operaciones CRUD y protección de rutas.
+                </p>
+
+                <div class="project-tech">
+                    <span>Angular</span>
+                    <span>TypeScript</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+
+                <a href="https://github.com/luamesa/FINALDW"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>API REST de Gestión</h3>
+
+                <p>
+                    API REST para gestión de usuarios, cursos y películas,
+                    implementando autenticación JWT, roles y MongoDB.
+                </p>
+
+                <div class="project-tech">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>JWT</span>
+                </div>
+
+                <a href="https://github.com/luamesa/Parcial-Desarrollo.web"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>IA — Triaje Odontológico</h3>
+
+                <p>
+                    Aplicación web académica que simula un sistema de apoyo
+                    para priorizar consultas odontológicas mediante reglas.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>IA</span>
+                </div>
+
+                <a href="https://github.com/luamesa/IA-Triaje-Odontologico"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">04</div>
+
+                <h3>IA aplicada al Derecho Penal</h3>
+
+                <p>
+                    Aplicación web académica que simula un sistema de apoyo
+                    a decisiones para analizar casos de derecho penal.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>IA</span>
+                </div>
+
+                <a href="https://github.com/luamesa/Aplicacion-web-academica-de-apoyo-a-decisiones."
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">05</div>
+
+                <h3>Invitación Web</h3>
+
+                <p>
+                    Sitio web interactivo y responsive desarrollado con
+                    HTML, CSS y JavaScript para una invitación digital.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://github.com/luamesa/invitacion-violetta"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">06</div>
+
+                <h3>Portafolio Académico</h3>
+
+                <p>
+                    Portafolio web desarrollado para presentar formación,
+                    proyectos, habilidades y áreas de interés profesional.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                </div>
+
+                <a href="https://github.com/luamesa/Parcial-2-Desarrollo-web"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver en GitHub →
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section id="formacion" class="section section-dark">
+
+        <div class="section-title">
+            <p>FORMACIÓN</p>
+            <h2>Educación</h2>
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-year">
+                Ingeniería
+            </div>
+
+            <div>
+                <h3>Ingeniería Informática</h3>
+
+                <p class="education-institution">
+                    Universidad de La Salle
+                </p>
+
+                <p>
+                    Formación orientada al desarrollo de software, programación,
+                    bases de datos, desarrollo web, APIs y tecnologías de
+                    infraestructura.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section learning">
+
+        <div class="section-title">
+            <p>EN CONSTANTE EVOLUCIÓN</p>
+            <h2>Actualmente aprendiendo</h2>
+        </div>
+
+        <div class="learning-list">
+
+            <span>☁️ Cloud</span>
+            <span>🐳 Docker</span>
+            <span>🔌 APIs</span>
+            <span>🤖 IA aplicada</span>
+            <span>⚙️ DevOps</span>
+            <span>🚀 Buenas prácticas</span>
+
+        </div>
+
+    </section>
+
+
+    <section id="contacto" class="contact-section">
+
+        <div class="contact-content">
+
+            <p class="hero-label">CONTACTO</p>
+
+            <h2>
+                ¿Hablamos de un proyecto?
+            </h2>
+
+            <p>
+                Estoy interesado en oportunidades profesionales
+                y posiciones Junior relacionadas con desarrollo de software.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:luis20200704@gmail.com">
+                    luis20200704@gmail.com
+                </a>
+
+                <a href="https://github.com/luamesa"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="www.linkedin.com/in/luisangelmesa"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Luis Angel Mesa. Portafolio personal.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
